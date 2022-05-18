@@ -1,0 +1,50 @@
+/*reset*/
+   
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+}
+#container{
+    display: flex;
+    text-align: right;
+    height: 80rem;
+    max-width: 400rem;
+    background-image: url(./assets/img/saturno.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center ;
+    
+
+    
+}
+
+nav {
+    display: flex;
+    font-size: 2rem;
+}
+#button-active{
+    border-radius: 1rem;
+}
+a{
+    margin-right: 4rem;
+}
+h1{
+    font-size: 3.5rem;
+}
+#section-hero{
+    margin-top: 100px;
+    
+}
+p{
+    color: white;
+}
+h1{
+    color: white;
+}
+
+
