@@ -12,8 +12,8 @@
 #container{
     display: flex;
     text-align: right;
-    height: 80rem;
-    max-width: 400rem;
+    height: 50rem;
+    max-width: 90rem;
     background-image: url(./assets/img/saturno.jpeg);
     background-repeat: no-repeat;
     background-size:cover;
@@ -26,6 +26,12 @@
 nav {
     display: flex;
     font-size: 2rem;
+    width: 50rem;
+    justify-content: center;
+    text-align: center;
+    margin-top: 2rem;
+    
+    
 }
 #button-active{
     border-radius: 1rem;
@@ -37,14 +43,84 @@ h1{
     font-size: 3.5rem;
 }
 #section-hero{
-    margin-top: 100px;
+    margin-top: 15rem;
     
 }
-p{
-    color: white;
-}
+
 h1{
     color: white;
 }
+.button{
+    margin-top: 4rem;
+    font-size: 2em;
+    color: white;
+    background-color: purple;
+    border-radius: 8rem;
+    width: 18rem;
+    height: 3rem;
+}
+#success{
+    font-size:1.8em ;
+    background-color: #2d1730;
+    color: white;
+    display: flex;
+    height: 200px;
+
+}
+.skills{
+    margin: 2rem;
+}
+#about{
+    display: flex;
+    color: pink;
+    background-color: black;
+
+}
+#about-container{
+    margin-right: 3rem;
+    margin-left: 1rem;
+    margin-top: 3rem;
+}
+img{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 3rem;
+    border-radius: 0.5rem;
+}
+#contact{
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(18, 17, 17);
+}
 
 
+ input{
+    
+    font-size: 0.5em;
+    width: 30rem;
+    padding: 0.3rem;
+    background-color:rgba(18, 17, 1,0.9) ;
+    margin-right: 1rem;
+    border-radius: 0.3;
+
+
+}
+
+ textarea{
+     width: 30rem;
+     font-size: 0.5em;
+     width: 30rem;
+     padding: 0.3rem;
+     background-color:rgba(18, 17, 1,0.9) ;
+     border-radius: 0.3;
+ }
+
+ footer{
+     display: flex;
+     padding: 4.5rem;
+     align-items: center;
+     justify-content: center;
+     background-color: #2d1730;
+     font-size: 1.2rem;
+ }
