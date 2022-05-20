@@ -137,6 +137,27 @@ h1{
     margin-left: 1rem;
     margin-top: 3rem;
 }
+#img-container{
+    display: flex;
+    width: 350px;
+}
+#arrow{
+    color: white;
+    width: 15px;
+    height: 30px;
+    margin-right: 1.5rem;
+    margin-top: 11rem;
+
+    
+}
+#arrow-box{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 0.3rem;
+    padding-right: 4rem;
+}
+
 img{
     margin-top: 2rem;
     margin-bottom: 2rem;

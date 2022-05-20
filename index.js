@@ -1,2 +1,0 @@
-// mudança de fotos
-
